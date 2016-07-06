@@ -10,12 +10,19 @@ Like symbols in ruby or clojure.
 :"can contain spaces if wrapped in quotes"
 ```
 
+Name is value. Two atoms with same name are identical
+
+```elixir
+:foo == :foo
+```
+
 ## Numbers
 
 ```elixir
 1000000 == 1_000_000
 
 1 + 2 # => 3
+3 - 2 # => 1
 
 4 / 10 # => 0.4
 
