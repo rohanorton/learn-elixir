@@ -29,7 +29,7 @@ Name is value. Two atoms with same name are identical
 
 ```
 
-# Lists
+## Lists
 
 Linked lists
 
@@ -40,7 +40,7 @@ hd(my_list) # => :foo
 tl(my_list) # => [:bar, :baz]
 ```
 
-# Tuples
+## Tuples
 
 Ordered
 
@@ -48,7 +48,7 @@ Ordered
 {:foo, :bar, :baz}
 ```
 
-# Keyword Lists
+## Keyword Lists
 
 Key-Value pair
 
@@ -56,13 +56,13 @@ Key-Value pair
 [ foo: 1, bar: 2, baz: 3 ]
 ```
 
-# Regex
+## Regex
 
 ```elixir
 %r/foo.*/
 ```
 
-# Boolean
+## Boolean
 
 All values are truthy except `false` and `nil` (shorthand for `:false` and
 `:nil`)
