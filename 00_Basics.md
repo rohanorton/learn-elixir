@@ -86,7 +86,7 @@ Key-Value pair
 ## Regex
 
 ```elixir
-%r/foo.*/
+~r/foo.*/
 ```
 
 ## Boolean
