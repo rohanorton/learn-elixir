@@ -2,7 +2,7 @@ defmodule ListServerTest do
   use ExUnit.Case, async: true
 
   setup do
-    ListServer.start_link
+    ListSupervisor.start_link
     ListServer.clear
   end
 
